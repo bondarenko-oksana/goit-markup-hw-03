@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -17,6 +23,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-studio {
     color: #2e2f42;
@@ -27,6 +34,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
   }
 .header-link:hover,
 .header-link:focus
@@ -48,6 +56,7 @@ color: #404bbf;
 }
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .heading-one {
     font-size: 56px;
@@ -55,6 +64,14 @@ color: #404bbf;
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.02em;
+    
+    display: flex;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    
+
 }
 .service-button {
     background-color: #4D5AE5;
@@ -65,6 +82,18 @@ color: #404bbf;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    
+    display: block;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
 }
 .service-button:hover,
 .service-button:focus {
@@ -108,3 +137,88 @@ color: #404bbf;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} 
+ h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+ }
+
+ ul, ol {
+    margin: 0;
+    padding-left: 0;
+ }
+
+ img {
+    display: block;
+ }
+
+ .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+
+ .container-header {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+      
+ }
+
+ .nav-header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+     }
+
+     ul {
+        display: flex;
+     }
+
+.header-link-list {
+    gap: 40px;
+}
+
+.address-link-list {
+    gap: 40px;
+}
+
+.section-two-list .heading-three {
+    margin-bottom: 8px;
+    
+}
+.section-two-list {
+    gap: 24px;
+}
+
+.container-section-two {
+    padding: 120px 0;
+}
+
+.container-section-three {
+    padding: 120px 0;
+}
+.section-three-list {
+    gap: 24px;
+}
+
+
+
+
+
+
+
+
+
