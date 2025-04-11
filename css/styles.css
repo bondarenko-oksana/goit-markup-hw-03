@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
  .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
  }
 
 .body-header {
@@ -36,8 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     padding: 24px 0;
-      
- }
+  }
 
  .nav-header {
     display: flex;
@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header-link-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0
 }
 
 .full-logo {
