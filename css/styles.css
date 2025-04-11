@@ -27,8 +27,29 @@ h1, h2, h3, h4, h5, h6, p {
  .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
  }
+
+.body-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+      
+ }
+
+ .nav-header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+     }
+
+   
+.header-link-list {
+    display: flex;
+    gap: 40px;
+}
 
 .full-logo {
   font-family: "Raleway", sans-serif;
@@ -130,6 +151,14 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.section-two {
+    padding: 120px 0;
+}
+.strategy-list {
+    width: calc((100% - 72px) / 4)
+}
+
+
 .section-three {
     background-color: #F4F4FD;
 
@@ -235,26 +264,7 @@ padding: 32px 0;
 } 
  
 
- .container-header {
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
-      
- }
-
- .nav-header {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-     }
-
-   
-.header-link-list {
-    display: flex;
-    gap: 40px;
-}
-
+ 
 .address-link-list {
     display: flex;
     gap: 40px;
@@ -268,10 +278,6 @@ padding: 32px 0;
 .section-two-list {
     display: flex;
     gap: 24px;
-}
-
-.container-section-two {
-    padding: 120px 0;
 }
 
 .container-section-three {
