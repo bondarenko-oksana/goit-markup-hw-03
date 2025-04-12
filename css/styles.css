@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    
  }
 
 .body-header {
@@ -36,20 +37,21 @@ h1, h2, h3, h4, h5, h6, p {
 .container-header {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
   }
 
  .nav-header {
-    display: flex;
+    display: block;
     align-items: center;
     margin-right: auto;
+   
      }
 
    
 .header-link-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+   
 }
 
 .full-logo {
@@ -72,6 +74,9 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    padding: 24px 0;
+    display: block;
     
   }
 .header-link:hover,
